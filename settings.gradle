@@ -1,2 +1,9 @@
+include ':multimediatest9'
+include ':contentprovidertest8'
+include ':datasavetest7'
+include ':broadcasttest'
+include ':fragmenttest'
+include ':uilayouttest'
+include ':uiwidgettest'
 include ':app'
 rootProject.name = "KotlinBook"
