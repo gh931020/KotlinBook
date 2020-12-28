@@ -1,3 +1,4 @@
+include ':servicetest10'
 include ':multimediatest9'
 include ':contentprovidertest8'
 include ':datasavetest7'

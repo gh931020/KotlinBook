@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServiceTest10</string>
+    <string name="progress">当前进度为：%1$d</string>
+</resources>
