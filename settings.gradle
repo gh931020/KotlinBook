@@ -1,3 +1,7 @@
+include ':sunnyweather15'
+include ':advancedtest14'
+include ':jetpacktest13'
+include ':materialdesigntest12'
 include ':networktest11'
 include ':servicetest10'
 include ':multimediatest9'

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Model"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnLifeCycles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LifeCycles"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnLiveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LiveData"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/btnWorkManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WorkManager"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

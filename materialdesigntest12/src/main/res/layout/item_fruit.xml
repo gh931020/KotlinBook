@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+    <!--    app:cardCornerRadius="25dp" 指定卡片圆角的读书,数值越大,圆角的弧度也越大-->
+    <!--    app:cardElevation="10dp"    指定卡片的高度,高度值越大,投影范围也越大,但是投影效果越淡-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/ivFruit"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/apple"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFruit"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

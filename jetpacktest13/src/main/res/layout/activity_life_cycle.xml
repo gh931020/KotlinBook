@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lifecycle.LifeCycleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="首先调用LifeCycleOwner的getLifeCycle()方法,得到有lifeCycle对象,然后调用
+它的addObserver()方法来观察lifeCycleOwener的生命周期,再把MyObserver的实例传进去,就可以实现监听了.
+\n lifecycle.currentState有五种状态类型: INITIALIZED, DESTROYED, CREATED, STARTED, RESUMED,
+与activity的6大生命周期相对应." />
+</androidx.constraintlayout.widget.ConstraintLayout>

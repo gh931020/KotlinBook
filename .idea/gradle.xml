@@ -12,14 +12,18 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/UiWidgetTest" />
+            <option value="$PROJECT_DIR$/advancedtest14" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/broadcasttest" />
             <option value="$PROJECT_DIR$/contentprovidertest8" />
             <option value="$PROJECT_DIR$/datasavetest7" />
             <option value="$PROJECT_DIR$/fragmenttest" />
+            <option value="$PROJECT_DIR$/jetpacktest13" />
+            <option value="$PROJECT_DIR$/materialdesigntest12" />
             <option value="$PROJECT_DIR$/multimediatest9" />
             <option value="$PROJECT_DIR$/networktest11" />
             <option value="$PROJECT_DIR$/servicetest10" />
+            <option value="$PROJECT_DIR$/sunnyweather15" />
             <option value="$PROJECT_DIR$/uilayouttest" />
           </set>
         </option>
